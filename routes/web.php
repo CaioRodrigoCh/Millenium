@@ -16,8 +16,3 @@ Route::get('/contato', function () {
 })->name('portal.contato');
 
 Route::resource('products','ProductController');
-
-/*  Route::get('/products', function () {
-    return view('products.index');
-})->name('products.index');
- */
