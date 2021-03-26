@@ -19,10 +19,11 @@
             <h1>Bem vindo à Faculdade Millenium</h1>
 
             <!-- PHP sintaxe -->
-            @if(date('H') >= 0 && date('H') <= 12)
+            @if(date('H') >= 0
+            && date('H') <= 12)
             <p> Bom dia!</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
-            <p> Boa Tarde! teste master 1223123</p>
+            <p> Boa Tarde! LEAGUE OF LEGENDS</p>
             @else
             <p> Boa Noite!</p>
             @endif
