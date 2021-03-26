@@ -16,7 +16,7 @@
         <img src="{{ URL::to('/') }}/images/faculdade.jpg"/>        
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Bem vindo à Faculdade Millenium</h1>
+            <h1>Bem vindo à Faculdade Millenium/SUSTENTABILIBADE</h1>
             
             <!-- PHP sintaxe -->
             @if(date('H') >= 0 && date('H') <= 12)
