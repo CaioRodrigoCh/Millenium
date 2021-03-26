@@ -4,7 +4,7 @@
 <!-- FIM -->
 
 <!-- Rendenização do conteúdo pela abertura do yield -->
-@section('content') 
+@section('content')
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -13,11 +13,11 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ URL::to('/') }}/images/faculdade.jpg"/>        
+        <img src="{{ URL::to('/') }}/images/faculdade.jpg"/>
         <div class="container">
           <div class="carousel-caption text-left">
             <h1>Bem vindo à Faculdade Millenium</h1>
-            
+
             <!-- PHP sintaxe -->
             @if(date('H') >= 0 && date('H') <= 12)
             <p> Bom dia!</p>
@@ -66,7 +66,7 @@
                     <p class="lead">Conte com nossa ferramente de feedback.</p>
                     <a class="btn btn-secondary" href="{{ route('portal.contato') }}" role="button">Clique aqui »</a>
                 </div>
-            </div>  
+            </div>
             </div>
     </div><!-- /.row -->
 @endsection
