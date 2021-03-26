@@ -23,7 +23,7 @@
             && date('H') <= 12)
             <p> Bom dia!</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
-            <p> Boa Tarde! LEAGUE OF LEGENDS</p>
+            <p> Boa Tarde!</p>
             @else
             <p> Boa Noite!</p>
             @endif
