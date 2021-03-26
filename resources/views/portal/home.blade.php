@@ -28,7 +28,7 @@
             @endif
             <!-- fim -->
 
-            <p>Venha conhecer nossa faculdade!</p>
+            <p>Venha conhecer nossa faculdade! TESTE 123</p>
             <p><a class="btn btn-lg btn-primary" href="{{ route('portal.contato') }}" role="button">Contate-nos.</a></p>
           </div>
         </div>
