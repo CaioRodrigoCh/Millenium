@@ -21,7 +21,7 @@
             <!-- PHP sintaxe -->
             @if(date('H') >= 0
             && date('H') <= 12)
-            <p> Bom dia! lohan gay</p>
+            <p> Bom dia!</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
             <p> Boa Tarde!</p>
             @else
