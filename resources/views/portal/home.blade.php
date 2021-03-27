@@ -24,7 +24,7 @@
             @elseif (date('H') >= 13 && date('H') <= 18)
             <p> Boa Tarde!</p>
             @else
-            <p> Boa Noite! bora começar?</p>
+            <p> Boa Noite!</p>
             @endif
             <!-- fim -->
 
