@@ -22,7 +22,7 @@
             @if(date('H') >= 0 && date('H') <= 12)
             <p> Bom dia! 123123</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
-            <p> Boa Tarde!</p>
+            <p> Boa Tarde! rola amigos</p>
             @else
             <p> Boa Noite!</p>
             @endif
