@@ -20,7 +20,7 @@
 
             <!-- PHP sintaxe -->
             @if(date('H') >= 0 && date('H') <= 12)
-            <p> Bom dia! HOLA</p>
+            <p> Bom dia! 12312312312321</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
             <p> Boa Tarde!</p>
             @else

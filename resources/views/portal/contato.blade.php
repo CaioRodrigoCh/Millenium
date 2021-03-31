@@ -13,7 +13,7 @@
         <div class='row'>
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Olá, Estamos sempre dispostos a lhe ajudar!</h1>
+                    <h1 class="display-4">guei livia</h1>
                     <p class="lead">Entre em contato e tiraremos todas as suas dúvidas.</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <div class='row'>
             <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Endereço de email</label>
+                <label for="exampleInputEmail1">Endereço de casa</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                 </div>

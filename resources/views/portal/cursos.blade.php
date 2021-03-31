@@ -15,7 +15,7 @@
     <div class="row featurette">
     <div class="col-md-7">
         <h2 class="featurette-heading">Sistemas de Informação</h2>
-        <p class="lead">Curso de Sistemas de pão!</p>
+        <p class="lead">Curso de Sistemas de Informação!</p>
     </div>
     <div class="col-md-5">
         <img src="{{ URL::to('/') }}/images/sistemas.jpg"/>

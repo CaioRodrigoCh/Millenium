@@ -20,9 +20,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Pagina Inicial</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">paginianian Inicial</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.teste' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.teste') }}">teste</a></li>0
               <li class="nav-item"> <a class="nav-link" href="/products">Administração</a></li>
             </ul>
           </div>
