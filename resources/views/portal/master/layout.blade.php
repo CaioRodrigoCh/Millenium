@@ -5,11 +5,12 @@
     <meta name="viweport"
         content="width=device-width, user-scalabre=no",initial-sc>
         <meta http-equiv="X-UA-Compatible" content='ie=edge'>
-        <title>Faculdade Millenium</title>
+        <title>Guia Universitário</title>
         <!-- Importação Boostrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <!-- Importação CSS -->
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('css/faro.css') }}">
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
@@ -20,11 +21,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">paginianian Inicial</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Home</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li>
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li>
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.teste' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.teste') }}">teste</a></li>0
-              <li class="nav-item"> <a class="nav-link" href="/products">Administração</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">Faro</a></li>
+              <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li> -->
             </ul>
           </div>
         </nav>

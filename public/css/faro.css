@@ -1,0 +1,40 @@
+.content {
+  display: flex;
+
+  grid-template: column;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background: #F45C12;
+  color: #FFF;
+}
+
+.content-inside {
+  padding: 0rem 10rem;
+}
+
+.content .content-inside h1 {
+  font-size: 80px;
+}
+
+.titulocursos{
+  display: flex;
+  justify-content: center;
+  color: #F45C12;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.list-content {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.list-content span {
+  padding: 10px;
+  font-weight: 500;
+}

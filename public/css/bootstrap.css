@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
 .bd-placeholder-img{
     font-size: 1.125rem;
     text-anchor: middle;
@@ -21,6 +30,22 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+  }
+
+  body, input, button {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 500;
+  }
+
+  button {
+    cursor: pointer;
   }
   
   

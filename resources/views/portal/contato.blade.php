@@ -13,7 +13,7 @@
         <div class='row'>
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">guei livia</h1>
+                    <h1 class="display-4">Olá, Estamos sempre dispostos a lhe ajudar!</h1>
                     <p class="lead">Entre em contato e tiraremos todas as suas dúvidas.</p>
                 </div>
             </div>

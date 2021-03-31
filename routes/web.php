@@ -15,8 +15,8 @@ Route::get('/contato', function () {
     return view('portal.contato');
 })->name('portal.contato');
 
-Route::get('/teste', function () {
-    return view('portal.teste');
-})->name('portal.teste');
+Route::get('/faro', function () {
+    return view('portal.faro');
+})->name('portal.faro');
 
 Route::resource('products','ProductController');
