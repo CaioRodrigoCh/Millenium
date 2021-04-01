@@ -14,11 +14,13 @@
         <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
 
         <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
+        <link rel="shortcut icon" href="/icon_sistema.ico" />
+</head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-          <a class="navbar-brand" href="{{ route('portal.home') }}">Guia do Universitário</a>
+          <img src="{{ URL::to('/') }}/images/icone.png" width="40px" height="40px"/>
+          <a style="padding-left: 10px;" class="navbar-brand" href="{{ route('portal.home') }}">Guia do Universitário</a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
