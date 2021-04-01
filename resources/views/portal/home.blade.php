@@ -16,11 +16,11 @@
         <img src="{{ URL::to('/') }}/images/faculdade.jpg"/>
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Bem vindo à Faculdade Millenium</h1>
+            <h1>Bem vindo ao Guia do Universitário!</h1>
 
             <!-- PHP sintaxe -->
             @if(date('H') >= 0 && date('H') <= 12)
-            <p> Bom dia! 12312312312321</p>
+            <p> Bom dia!</p>
             @elseif (date('H') >= 13 && date('H') <= 18)
             <p> Boa Tarde!</p>
             @else
@@ -28,7 +28,7 @@
             @endif
             <!-- fim -->
 
-            <p>Venha conhecer nossa faculdade!</p>
+            <p>Venha conhecer nosso site!</p>
             <p><a class="btn btn-lg btn-primary" href="{{ route('portal.contato') }}" role="button">Contate-nos.</a></p>
           </div>
         </div>
@@ -37,8 +37,8 @@
         <img src="{{ URL::to('/') }}/images/banner.jpg"/>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Os melhores cursos do Estado</h1>
-            <p>A melhor faculdade de Tecnologia!</p>
+            <h1>As melhores Faculdade de Porto Velho</h1>
+            <p>Procure a sua futura faculdade com a gente!</p>
             <p><a class="btn btn-lg btn-primary" href="{{ route('portal.cursos') }}" role="button">Saiba Mais</a></p>
           </div>
         </div>

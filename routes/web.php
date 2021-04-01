@@ -19,4 +19,8 @@ Route::get('/faro', function () {
     return view('portal.faro');
 })->name('portal.faro');
 
+Route::get('/sapiens', function () {
+    return view('portal.sapiens');
+})->name('portal.sapiens');
+
 Route::resource('products','ProductController');

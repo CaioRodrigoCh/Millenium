@@ -11,19 +11,24 @@
         <!-- Importação CSS -->
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('css/faro.css') }}">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+
+        <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-          <a class="navbar-brand" href="{{ route('portal.home') }}">Millenium</a>
+          <a class="navbar-brand" href="{{ route('portal.home') }}">Guia do Universitário</a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Home</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Página Principal</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li>
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">Faro</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">FARO</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.sapiens' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.sapiens') }}">Sapiens</a></li>
               <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li> -->
             </ul>
           </div>
@@ -36,9 +41,12 @@
   
   
         <!-- FOOTER -->
-        <footer class="container">
+        <footer>
+          <br>
+          <br>
+          <hr>
           <p class="float-right"><a href="#">Voltar ao topo</a></p>
-          <p> Caio Rodrigo &copy;<?= date('Y') ?> &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+          <p> Grupo <strong>Guia do Universitário</strong> &copy;<?= date('Y') ?> &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
         </footer>
       </main>
 
