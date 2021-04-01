@@ -8,7 +8,7 @@
 
     <main role="main">
 
-      <div class="content">
+      <div class="content" style="background-color: red">
         
         <div class="content-inside">
           <h1>Faculdade Uniron</h1>
