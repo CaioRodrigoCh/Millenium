@@ -12,6 +12,21 @@
     <style>
         body{
             font-size: 1.2em;
+            color: black;
+        }
+        header{
+            padding-top: 20px;
+            padding-bottom: 50px;
+            background: #006;
+            color: #ddd;
+            text-align: center;
+        }
+        header h1{
+            color: #ddd;
+        }
+        .borda{
+            margin: 50px;
+            background: #eee;
         }
         .corpo{
             display: flex;
@@ -24,6 +39,13 @@
         img{
             max-width: 100%;
             display: block;
+        }
+        h1{
+            text-align: center;
+            color: #006;
+        }
+        p{
+            text-align: justify;
         }
     </style>
 </head>
@@ -102,36 +124,46 @@
       </div>
     </div> 
 </div> -->
-    <div class="corpo">
-        <div class="curso">
-            <h1>Direito</h1>
-            <img src="../images/curso_direito.jpg" alt="">
-            <p>No decorrer de cinco anos de curso, são estudadas as normas e leis do país, de forma que seja mantida uma organização entre a sociedade, as empresas e o poder público. Contando com profissionais qualificados, o Centro Universitário São Lucas oferece toda a estrutura necessária para a melhor compreensão dos alunos sobre a profissão. </p>
-        </div>
-        <div class="curso">
-            <h1>Medicina</h1>
-            <img src="../images/curso-medicina.jpg" alt="">
-            <p>O curso de Medicina ministrado na unidade de graduação Porto Velho do São Lucas propõe formar profissionais capacitados intelectual, ética e humanisticamente para realizar a manutenção da saúde da comunidade em geral. O graduado do curso de Medicina do São Lucas deverá ter competência para sugerir a conduta terapêutica apropriada para o tratamento das mais variadas situações clínicas.</p>
-        </div>
-        <div class="curso">
-            <h1>Enfermagem</h1>
-            <img src="../images/curso-enf.jpg" alt="">
-            <p>O curso de Enfermagem do Centro Universitário São Lucas forma profissionais com habilidades, competências, atitudes e comportamentos crítico, reflexivo e criativo, capazes de atuar com competência em todos os níveis de complexidade da assistência ao ser humano. O Curso está estruturado em 5 grandes eixos que proporcionarão ao acadêmico disciplinas que contemplem as Ciências Biológicas e Sociais, Fundamentos de enfermagem, Assistência de enfermagem, Administração de enfermagem e Ensino de enfermagem.</p>
-        </div>
-        <div class="curso">
-            <h1>Engenharia Civil</h1>
-            <img src="../images/curso-engenharia.jpg" alt="">
-            <p>Com um total de 5 anos de curso, são estudadas muitas matérias técnicas, como geometria descritiva e mecânica dos solos. A grade curricular do curso de engenharia civil é muito focada na área de exatas. No decorrer da grade são apresentadas matérias como hidráulica, terraplanagem, instalações elétricas prediais, drenagem urbana e saneamento ambiental.</p>
-        </div>
-        <div class="curso">
-            <h1>Arquitetura</h1>
-            <img src="../images/curso-arq.jpg" alt="">
-            <p>A faculdade de arquitetura abrange muitos conteúdos diferentes. Em geral, esse é um curso que possui 10 semestres de duração, ou seja, cinco anos. Dessa forma, é possível absorver todos os conteúdos teóricos e práticos que a faculdade oferece. Na Faculdade São Lucas, é possível desenvolver ainda melhor suas habilidades com desenho e com as maquetes que levam aos projetos em tamanho real.</p>
-        </div>
-        <div class="curso">
-            <h1>Administração</h1>
-            <img src="../images/curso-admin.jpg" alt="">
-            <p>O curso de administração é um dos mais procurados pelos jovens que estão iniciando o curso superior. Contendo matérias como economia, português e liderança, o curso forma administradores competentes e capazes de realizar as atividades naturalmente designadas para administradores.</p>
+    <header>
+        <h1>São Lucas</h1>
+        <h5>Conhecimento que marca.</h5>
+    </header>
+
+    <h1>Cursos</h1>
+
+    <div class="borda">
+    
+        <div class="corpo">
+            <div class="curso">
+                <h1>Direito</h1>
+                <img src="../images/curso_direito.jpg" alt="">
+                <p>No decorrer de cinco anos de curso, são estudadas as normas e leis do país, de forma que seja mantida uma organização entre a sociedade, as empresas e o poder público. Contando com profissionais qualificados, o Centro Universitário São Lucas oferece toda a estrutura necessária para a melhor compreensão dos alunos sobre a profissão. </p>
+            </div>
+            <div class="curso">
+                <h1>Medicina</h1>
+                <img src="../images/curso-medicina.jpg" alt="">
+                <p>O curso de Medicina ministrado na unidade de graduação Porto Velho do São Lucas propõe formar profissionais capacitados intelectual, ética e humanisticamente para realizar a manutenção da saúde da comunidade em geral. O graduado do curso de Medicina do São Lucas deverá ter competência para sugerir a conduta terapêutica apropriada para o tratamento das mais variadas situações clínicas.</p>
+            </div>
+            <div class="curso">
+                <h1>Enfermagem</h1>
+                <img src="../images/curso-enf.jpg" alt="">
+                <p>O curso de Enfermagem do Centro Universitário São Lucas forma profissionais com habilidades, competências, atitudes e comportamentos crítico, reflexivo e criativo, capazes de atuar com competência em todos os níveis de complexidade da assistência ao ser humano. O Curso está estruturado em 5 grandes eixos que proporcionarão ao acadêmico disciplinas que contemplem as Ciências Biológicas e Sociais, Fundamentos de enfermagem, Assistência de enfermagem, Administração de enfermagem e Ensino de enfermagem.</p>
+            </div>
+            <div class="curso">
+                <h1>Engenharia Civil</h1>
+                <img src="../images/curso-engenharia.jpg" alt="">
+                <p>Com um total de 5 anos de curso, são estudadas muitas matérias técnicas, como geometria descritiva e mecânica dos solos. A grade curricular do curso de engenharia civil é muito focada na área de exatas. No decorrer da grade são apresentadas matérias como hidráulica, terraplanagem, instalações elétricas prediais, drenagem urbana e saneamento ambiental.</p>
+            </div>
+            <div class="curso">
+                <h1>Arquitetura</h1>
+                <img src="../images/curso-arq.jpg" alt="">
+                <p>A faculdade de arquitetura abrange muitos conteúdos diferentes. Em geral, esse é um curso que possui 10 semestres de duração, ou seja, cinco anos. Dessa forma, é possível absorver todos os conteúdos teóricos e práticos que a faculdade oferece. Na Faculdade São Lucas, é possível desenvolver ainda melhor suas habilidades com desenho e com as maquetes que levam aos projetos em tamanho real.</p>
+            </div>
+            <div class="curso">
+                <h1>Administração</h1>
+                <img src="../images/curso-admin.jpg" alt="">
+                <p>O curso de administração é um dos mais procurados pelos jovens que estão iniciando o curso superior. Contendo matérias como economia, português e liderança, o curso forma administradores competentes e capazes de realizar as atividades naturalmente designadas para administradores.</p>
+            </div>
         </div>
     </div>
 </main>
