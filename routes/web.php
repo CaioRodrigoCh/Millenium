@@ -23,4 +23,8 @@ Route::get('/sapiens', function () {
     return view('portal.sapiens');
 })->name('portal.sapiens');
 
+Route::get('/saolucas', function () {
+    return view('portal.saolucas');
+})->name('portal.saolucas');
+
 Route::resource('products','ProductController');
