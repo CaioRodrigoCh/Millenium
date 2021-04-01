@@ -26,21 +26,21 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Página Principal</a></li>
-              <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">FARO</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.sapiens' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.sapiens') }}">Sapiens</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.saolucas' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.saolucas') }}">São Lucas</a></li>
+              <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li> -->
               <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li> -->
             </ul>
           </div>
         </nav>
       </header>
-  
+
       <main role="main">
-  
+
         @yield('content')  <!-- Abertura para outros layouts de conteúdo -->
-  
-  
+
+
         <!-- FOOTER -->
         <footer>
           <br>
