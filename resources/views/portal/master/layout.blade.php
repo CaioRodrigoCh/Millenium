@@ -29,6 +29,7 @@
               <li class="nav-item {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">FARO</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.sapiens' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.sapiens') }}">Sapiens</a></li>
               <li class="nav-item {{ (Route::current()->getName() === 'portal.saolucas' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.saolucas') }}">São Lucas</a></li>
+              <li class="nav-item {{ (Route::current()->getName() === 'portal.uniron' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.uniron') }}">Uniron</a></li>            
               <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.cursos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.cursos') }}">Cursos</a></li> -->
               <!-- <li class="nav-item {{ (Route::current()->getName() === 'portal.contato' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contato') }}">Contato</a></li> -->
             </ul>

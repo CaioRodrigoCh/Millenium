@@ -27,4 +27,8 @@ Route::get('/saolucas', function () {
     return view('portal.saolucas');
 })->name('portal.saolucas');
 
+Route::get('/uniron', function () {
+    return view('portal.uniron');
+})->name('portal.uniron');
+
 Route::resource('products','ProductController');
