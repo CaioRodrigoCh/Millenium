@@ -22,7 +22,7 @@
         <div class='row'>
             <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Endereço de casa</label>
+                <label for="exampleInputEmail1">Seu email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
                 </div>
