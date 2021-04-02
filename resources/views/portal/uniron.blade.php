@@ -39,7 +39,7 @@
                       <div class="description-text">
                       <h2>Arquitetura e Urbanismo</h2>                        
                         <p class="card-text">O curso de Arquitetura e Urbanismo forma profissionais capazes de projetar e organizar espaços internos e externos de acordo com critérios de estética, conforto e funcionalidade. Ao final do curso, o aluno se qualifica para trabalhar com projetos prediais, paisagísticos, design de interiores e planejamento urbano. É necessário ser registrado no Conselho de Arquitetura e Urbanismo para exercer a profissão. No mercado de trabalho o arquiteto pode atuar no setor público, em empresas de arquitetura, construtoras, no setor educacional e de pesquisa ou como autônomo.
-                        <p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/cursos/arquitetura-e-urbanismo/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://uniron.edu.br/cursos/arquitetura-e-urbanismo/" target="blank">Clique aqui!</a>
                         
                         </p>
                       </div>
@@ -70,7 +70,7 @@
                       <div class="description-text">
                       <h2>Ciências Contábeis</h2>
                         <p class="card-text">O curso de Ciências Contábeis forma profissionais com capacidade de planejamento e gerência contábil de instituições. Ao final do curso, o aluno se qualifica para cuidar das contas de empresas e pessoas físicas, por meio do registro e do controle das receitas, das despesas e dos lucros. É obrigatória a inscrição no Conselho Regional de Contabilidade para o exercício da profissão. No mercado de trabalho o contador coordena e controla os registros de negócios empresariais (compras, vendas, investimentos e aplicações) ou de pessoas físicas. Algumas atividades são exclusivas desse profissional: a auditoria e as perícias contábeis.
-                        <p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/cursos/ciencias-contabeis/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://uniron.edu.br/cursos/ciencias-contabeis/" target="blank">Clique aqui!</a>
 
                         </p>
                       </div>
@@ -101,7 +101,7 @@
                       <div class="description-text">
                       <h2>Administração</h2>
                         <p class="card-text">O curso de Administração forma profissionais com visão global para gerenciar os diferentes setores de uma empresa. Ao final do curso, o aluno qualifica tanto como empreendedor capaz de abrir seu próprio negócio quanto como executivo de diferentes níveis de direção. No mercado de trabalho o administrador tem lugar em praticamente todos os departamentos de organizações públicas, privadas ou sem fins lucrativos. Cursos de especialização, como MBAs, são essenciais para crescer na carreira.
-                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/cursos/administracao/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://uniron.edu.br/cursos/administracao/" target="blank">Clique aqui!</a>
 
                         </p>
                       </div>
@@ -132,7 +132,7 @@
                       <div class="description-text">
                         <h2>Publicidade e Propaganda</h2>
                         <p class="card-text">O curso de Publicidade e Propaganda forma profissionais especializados em campanhas e peças publicitárias. Ao final do curso, o aluno é capaz de apresentar um produto ou serviço ao consumidor, promover sua venda e garantir sua boa imagem. O profissional também faz a arte de embalagens, cria logomarcas, define os meios de comunicação mais adequados à campanha e ao público-alvo, cria os textos e as imagens e acompanha sua produção. No mercado de trabalho o publicitário atua em agências especializadas em marketing, comunicação, produção de eventos ou promoção de identidade corporativa.
-                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/cursos/publicidade-e-propaganda/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://uniron.edu.br/cursos/publicidade-e-propaganda/" target="blank">Clique aqui!</a>
 
 
                         </p>
@@ -166,7 +166,7 @@
                         <p class="card-text">O curso de Engenharia Ambiental e Sanitária tem por objetivo formar engenheiros capazes de contribuir para prevenção, remediação ou minimização de toda alteração das propriedades físicas, químicas e biológicas do meio ambiente, causada por qualquer forma de matéria ou energia resultante das atividades humanas que, direta ou indiretamente afetam a saúde, o bem estar da população e a qualidade do meio ambiente.
                         <p class="card-text">Curso Aprovado pelo MEC com nota 4
                         
-                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://www.uniron.edu.br/cursos/engenharia-ambiental-e-sanitaria/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://www.uniron.edu.br/cursos/engenharia-ambiental-e-sanitaria/" target="blank">Clique aqui!</a>
 
                         </p>
                       </div>
@@ -198,7 +198,7 @@
                       <h2>Engenharia Civil</h2>                        
                         <p class="card-text">O curso de Engenharia Civil tem por objetivo formar profissionais de nível superior com qualidade, alicerçada em sólido aprendizado técnico-científico, gerencial e social, aptos a absorver e desenvolver novas tecnologias, atuar criativa e criticamente na identificação das demandas sociais e no desenvolvimento sustentado da região e do país.
                         <p class="card-text">O Engenheiro Civil é um profissional que possui uma vasta área de atuação, desde aquelas diretamente em obras, comandando equipes técnicas e tomando decisões em tempo real, como atuação em projetos e planejamentos. Ele pode atuar de forma autônoma, em empresa de engenharia, atuando em ramos específicos ou especializados, ou como funcionário público municipal, estadual ou federal.
-                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/cursos/engenharia-civil/" target="blank">Clique aqui!</a>
+                        <p class="card-text"><p class="card-text"><a class="btn btn-outline-secondary" style="color: red" href="https://uniron.edu.br/cursos/engenharia-civil/" target="blank">Clique aqui!</a>
 
                         </p>
                       </div>
