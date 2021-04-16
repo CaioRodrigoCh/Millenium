@@ -17,7 +17,6 @@
         </div>
 
         <div>
-            <!--<img src="https://www.educabras.com/media/faculdades/image/uniron.jpg" alt="logo">-->
             <img src="https://rondoniaovivo.com/imagensNoticias/8eca44032c41c3af294f3c4fe5479dcd.jpeg" alt="logo">
             
         </div>
