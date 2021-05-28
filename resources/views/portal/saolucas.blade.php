@@ -10,10 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>São Lucas</title>
     <style>
-        body{
-            font-size: 1.2em;
-            color: black;
-        }
         header{
             padding-top: 20px;
             padding-bottom: 50px;
@@ -51,7 +47,7 @@
 </head>
 <body>
 <main>
-<!-- 
+<!--
 <section class="py-5 text-center container" id="topo">
   <div class="row py-lg-5">
     <div class="col-lg-6 col-md-8 mx-auto">
@@ -122,7 +118,7 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div>
 </div> -->
     <header>
         <h1>São Lucas</h1>
@@ -132,7 +128,7 @@
     <h1>Cursos</h1>
 
     <div class="borda">
-    
+
         <div class="corpo">
             <div class="curso">
                 <h1>Direito</h1>
