@@ -12,24 +12,24 @@
         
         <div class="content-inside">
           <h1>Faculdade Uniron</h1>
-          <p>Formando Proficionais com Qualidade!</p>
+          <p>Formando Proficionais de Qualidade!</p>
           <a class="btn btn-outline-secondary" style="color: aliceblue" href="https://uniron.edu.br/" target="blank">Clique aqui!</a>
         </div>
 
         <div>
-            <img src="https://rondoniaovivo.com/imagensNoticias/8eca44032c41c3af294f3c4fe5479dcd.jpeg" alt="logo">
+            <img src="http://3.bp.blogspot.com/-jnxMbUHbbY4/TjwmkLoGVOI/AAAAAAAAANA/fic084ni5Vw/s1600/unironshopping.jpg" alt="logo">
             
         </div>
       </div>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-5 bg-light">      
         <div class="container">
 
         <h1 class="titulocursos">Cursos</h1>
 
         <div class="row">
 
-                <!-- Curso 1 -->
+                <!--Arquitetura e Urbanismo INÍCIO -->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="https://s24534.pcdn.co/carreira-sucesso/wp-content/uploads/sites/3/2019/01/arquiteto-e-urbanismo.png" alt="Card image cap">
@@ -58,12 +58,12 @@
                     </div>
                   </div>
                 </div>
-                <!--Curso 1 Fim -->
+                <!--Arquitetura e Urbanismo FIM -->
 
-                <!-- Curso 2 -->
+                <!--Ciências Contábeis INÍCIO -->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="https://www.contabeis.com.br/assets/img/news/n_41425_0b9d180cbc19b06834dbf1ec3b08e819.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="https://d3q93wnyp4lkf8.cloudfront.net/revista/post_images/6303/f72d0862a2fc41d64e648315dcbb1193cfbf2ac9.jpg?1516645780" alt="Card image cap">
                     <div class="card-body separation">
 
                       <div class="description-text">
@@ -89,9 +89,9 @@
                     </div>
                   </div>
                 </div>
-                <!-- Curso 2 Fim -->
+                <!--Ciências Contábeis FIM-->
 
-                <!-- Curso 3 -->
+                <!--Administração INÍCIO-->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="https://fia.com.br/graduacao/wp-content/uploads/2019/03/original-acf6c8f063d36c193ad2956fe6b48ef3.jpg" alt="Card image cap">
@@ -120,12 +120,12 @@
                     </div>
                   </div>
                 </div>
-                <!-- Curso 3 Fim -->
+                <!--Administração FIM-->
 
-                <!-- Curso 4 -->
+                <!--Publicidade e Propaganda INÍCIO-->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="https://image.slidesharecdn.com/apresentaopp-131028091003-phpapp02/95/o-que-publicidade-e-propaganda-1-638.jpg?cb=1410330580" alt="Card image cap">
+                    <img class="card-img-top" src="http://blog.fecap.br/wp-content/uploads/Guia-completo-tudo-sobre-Publicidade-e-Propaganda.jpg" alt="Card image cap">
                     <div class="card-body separation">
 
                       <div class="description-text">
@@ -152,9 +152,9 @@
                     </div>
                   </div>
                 </div>
-                <!-- Curso 4 Fim -->
+                <!--Publicidade e Propaganda FIM-->
 
-                <!-- Curso 5 -->
+                <!--Engenharia Ambiental e Sanitária INÍCIO-->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="http://www.eas.ufma.br/wp-content/uploads/2020/11/cropped-educao-e-sociedade-ambiental.jpg" alt="Card image cap">
@@ -185,9 +185,9 @@
                     </div>
                   </div>
                 </div>
-                <!-- Curso 5 Fim -->
+                <!--Engenharia Ambiental e Sanitária FIM-->
 
-                <!-- Curso 6 -->
+                <!--Engenharia INÍCIO-->
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ZJsElnKaelD9zVoJXYyZXkLDJuRvzInPYA&usqp=CAU" alt="Card image cap">
@@ -217,7 +217,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- Curso 6 Fim -->
+                <!--Engenharia FIM-->
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
