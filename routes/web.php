@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/contate-nos', function () {
+    return view('portal.contate-nos');
+})->name('portal.contate-nos');
 
 Route::get('/', function () {
     return view('portal.home');
@@ -10,10 +13,6 @@ Route::get('/', function () {
 Route::get('/cursos', function () {
     return view('portal.cursos');
 })->name('portal.cursos');
-
-Route::get('/contato', function () {
-    return view('portal.contato');
-})->name('portal.contato');
 
 Route::get('/faro', function () {
     return view('portal.faro');

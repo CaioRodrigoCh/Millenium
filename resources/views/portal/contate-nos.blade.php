@@ -32,12 +32,13 @@
                 </div>                
                                 
                 <div class="form-group"> 
-                <label for="exampleInputPassword1">Seu comentário</label>
+                <label for="exampleInputPassword1">Seu comentário</label>                
                 <input style="height: 60px;" type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite aqui sua dúvida!">
+                <!-- <textarea style="height: 60px;" type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite aqui sua dúvida!"></textarea> -->
                 </div>                
 
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                
+                <button type="submit" class="btn btn-primary">Enviar</button>                
+
             </form>
         </div>
     </div>
