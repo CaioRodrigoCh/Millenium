@@ -15,7 +15,7 @@
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <figure class="text-center">
-                    <h1 class="display-6"> Bem vindo ao Guia Universitário PVH, em que podemos te ajudar?
+                    <h1 class="display-6"> Bem vindo ao Guia do Universitário PVH, em que podemos te ajudar?
                     <h1 class="lead"> Contate-nos e tiraremos todas as suas dúvidas!</h1>
                 </div>
             </div>
