@@ -28,29 +28,31 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Guia do Universitário</a>
+                <img style="height: 49px;" class="masthead-avatar mb-2" src="assets/img/WHITE.png" alt="..." />
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.contate-nos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contate-nos') }}">contate-nos</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">FARO</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.sapiens' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.sapiens') }}">SAPIENS</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.saolucas' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.saolucas') }}">São Lucas</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.uniron' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.uniron') }}">Uniron</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.home' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.home') }}">Página Inicial</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.contate-nos' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.contate-nos') }}">contate-nos</a></li>
+                        {{-- <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.faro' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.faro') }}">FARO</a></li> --}}
+                        {{-- <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.sapiens' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.sapiens') }}">SAPIENS</a></li> --}}
+                        {{-- <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.saolucas' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.saolucas') }}">São Lucas</a></li> --}}
+                        {{-- <li class="nav-item mx-0 mx-lg-1 {{ (Route::current()->getName() === 'portal.uniron' ? 'active' : '') }}"><a class="nav-link" href="{{ route('portal.uniron') }}">Uniron</a></li> --}}
                         
                     </ul>
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" style="background-color: #343A40" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 FACULDADES
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                {{-- <li><a class="dropdown-item" href="{{ route('portal.home') }}">Página Inicial</a></li> --}}
+                                <li><a class="dropdown-item" href="{{ route('portal.faro') }}">FARO</a></li>
+                                <li><a class="dropdown-item" href="{{ route('portal.sapiens') }}">SAPIENS</a></li>
+                                <li><a class="dropdown-item" href="{{ route('portal.saolucas') }}">SÃO LUCAS</a></li>
+                                <li><a class="dropdown-item" href="{{ route('portal.uniron') }}">UNIRON</a></li>
                             </ul>
                         </div>
                     </div>

@@ -31,3 +31,7 @@ Route::get('/uniron', function () {
 })->name('portal.uniron');
 
 Route::resource('products','ProductController');
+
+Route::get('/listar-faculdades', 'FaculdadesController@listarFaculdades');
+
+

@@ -12,7 +12,7 @@
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/logo.png" alt="..." />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Guia Universitário PVH</h1>
+                {{-- <h1 class="masthead-heading text-uppercase mb-0">Guia Universitário PVH</h1> --}}
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -34,6 +34,15 @@
                     <div class="divider-custom-icon"><i class="fas fa-graduation-cap"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+
+                <div> 
+                    <div class="container" style="display: flex;justify-content: center;">
+                        <button style="margin-right: 20px;background: #E5E5E5" type="button" class="btn btn-light">Presencial</button> 
+                        <button style="margin-right: 20px;background: #E5E5E5" type="button" class="btn btn-light">EAD</button> 
+                        <button style="background: #E5E5E5" type="button" class="btn btn-light">Híbrida</button> 
+                    </div>
+                </div>
+                <br>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
