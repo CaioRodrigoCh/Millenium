@@ -2,13 +2,21 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/contate-nos', function () {
-    return view('portal.contate-nos');
-})->name('portal.contate-nos');
-
 Route::get('/', function () {
     return view('portal.home');
 })->name('portal.home');
+
+Route::get('/teste', function () {
+    return view('portal.teste');
+})->name('portal.teste');
+
+Route::get('/sobre', function () {
+    return view('portal.sobre');
+})->name('portal.sobre');
+
+Route::get('/contate-nos', function () {
+    return view('portal.contate-nos');
+})->name('portal.contate-nos');
 
 Route::get('/cursos', function () {
     return view('portal.cursos');
