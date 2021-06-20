@@ -6,9 +6,9 @@
 @section('content')
 <div class='container'>
 <div class='row'>
-    
+
     <div class='container py-2'>
-        <div class='row'>        
+        <div class='row'>
         <h1>Contate-nos!</h1>
         </div>
 
@@ -20,14 +20,14 @@
                     <h1 class="lead"> Contate-nos e tiraremos todas as suas dúvidas!</h1>
                 </div>
             </div>
-        </div>      
-        <div class='row'>        
-        
-            <form>            
-                
-                <div class="form-group"> 
-                                            
-                <label for="exampleInputEmail1">Seu email</label>                 
+        </div>
+        <div class='row'>
+
+            <form>
+
+                <div class="form-group">
+
+                <label for="exampleInputEmail1">Seu email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email com ninguém.</small>
                 </div>                
@@ -37,10 +37,15 @@
                 <input style="height: 60px;" type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite aqui sua dúvida!">                
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Enviar</button>                
+                
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
 
             </form>
         </div>
     </div>
 </div>
+
 @endsection
+
+@endextends
